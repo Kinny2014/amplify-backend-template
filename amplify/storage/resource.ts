@@ -11,7 +11,7 @@ export const firstBucket = defineStorage({
               allow.authenticated.to(['read','write']),
               allow.guest.to(['read', 'write'])
           ]
-  })
+  }),
   isDefault: true
 });
 
